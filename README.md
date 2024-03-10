@@ -4,45 +4,46 @@ Practice Exercises with SQL
 ![alt text](image.png)
 
 
-This repository 
+
+This repository contains a series of exercises aimed at practicing SQL queries. The exercises cover a variety of tasks commonly encountered in database management and querying.
 
 ## Contents
 
-1. [Conexión con MySQL](#Coneción_con_MySQL)
-2. [Script de conexión a la base de datos](#Script-de-conexión-a-la-base-de-datos)
-3. [Ejercicios](#Ejercicios)
+1. [MySQL Connection](#MySQL-Connection)
+2. [Connection Script to Database](#Connection-Script-to-Database)
+3. [Exercises](#Exercises)
 
 ---
 
-## Conexión con MySQ
+## MySQL Connection
 
-- Instalación del conector
-- Importación de libreríaspara la conexión y comunicación con MySQL
+- Installation of the connector
+- Importing libraries for connection and communication with MySQL
 
 ---
 
-## Script de conexión a la base de datos
+## Connection Script to Database
 
 -Ejemplo de conexión
 
-## Ejercicios
+## Exercises
 
-- Leer archivo SQL con pandas
-- Almacenar el DataFrame como archivo csv
-- Mostrar el máximo de columnas del DataFrame
-- Conexión y extracción de datos:
-    1. Obterner el listado de todos los productos
-    2. Obtener el número de pedido, dni del repartidor y hora de reparto de aquellos pedidos que se toman nota después de las siete de la tarde
-    3. Obtener todos los campos de empleados que cobran entre 900 y 1000 euros
-    4. Obtener el número de pedido e importe de aquellos que han sido registrados en el mes de noviembre de 2020 y su importe es mayor a 15 Euros
-    5. Obtener por cada uno de los repartidores su DNI junto a la cantidad de pedidos entregados
-    6. Obtener por cada mes (con el formato de nombre y no de número ej. Noviembre),la cantidad de pedidos realizados
-    7. Obtener un listado con el nombre y dni de los empleados en el mismo campo y anteponiendo el dni al nombre de la siguiente forma (ej; 45776633P, Juan Rodríguez López) que tenga turno de “tarde” o "noche". Ordenar el listado por dni
-    8. Obtener el nombre, código y precio de aquellos productos que superen o igualen la media de todos los precios. Ordenar de mayor a menor precio
-    9. Obtener un listado con el nombre y DNI de los empleados que no han preparado nunca ningún pedido
-    10. Obtener el código, nombre y precio de los productos(estos dos últimos en el mismo campo) que están contenidos en los pedidos que ha tomado nota "Luis" o "María Luisa". Ordena el listado de mayor a menor valor por fecha del pedido
-    11. Obtener por cada repartidor, su nombre, cantidad de pedidos y el tiempo medio que tardan en entregar los pedidos una vez preparados. Ordenar el listado el tiempo medio que tardan en entregarlos
-    12. Obtener un listado obteniendo el código, nombre y el precio de los productos cuyo precios sea el más barato o el más caro de todos
-    13. Obtener por cada producto , el nombre y código el número total de pedidos en los que se encuentra teniendo en cuenta que el total de pedidos en los cuales se encuentre sea superior o igual a dos. Ordena el listado de mayor a menor número de productos
-    14. Mostrar listado de los empleados (código y NSS en la misma columna) que han tomado nota de algún pedido y contienen el producto de código 13 y además el repartidor sea 'Laura'
-    15. Obtener el nombre del producto que es menú junto con el código de los productos que lo componen en aquellos pedidos del mes de septiembre de 2020
+- Read SQL file with pandas
+- Store the DataFrame as a CSV file
+- Show the maximum number of columns in the DataFrame
+- Connection and data extraction:
+    1. Get a list of all products
+    2. Get the order number, delivery person's ID, and delivery time for those orders taken after seven in the evening
+    3. Get all fields of employees earning between 900 and 1000 euros
+    4. Get the order number and amount for those registered in November 2020 and whose amount is greater than 15 Euros
+    5. For each delivery person, get their ID along with the number of orders delivered
+    6. Get, for each month (in name format, not number, e.g., November), the number of orders placed
+    7. Get a list with the name and ID of employees in the same field, with the ID preceding the name as follows (e.g., 45776633P, Juan Rodríguez López) who have the shift "afternoon" or "night". Sort the list by ID
+    8. Get the name, code, and price of products that exceed or equal the average of all prices. Sort from highest to lowest price
+    9. Get a list with the name and ID of employees who have never prepared any orders
+    10. Get the code, name, and price of products (the last two in the same field) that are contained in orders taken by "Luis" or "María Luisa". Sort the list from highest to lowest value by order date
+    11. For each delivery person, get their name, number of orders, and the average time it takes to deliver orders once prepared. Sort the list by the average time it takes to deliver them
+    12. Get a list showing the code, name, and price of products whose price is the cheapest or most expensive of all
+    13. Get, for each product, the name and code, the total number of orders it is in, considering that the total number of orders it is in is greater than or equal to two. Sort the list from highest to lowest number of products
+    14. Show a list of employees (code and NSS in the same column) who have taken note of an order and contain the product with code 13 and additionally the delivery person is 'Laura'
+    15. Get the name of the product that is a menu along with the codes of the products that compose it in those orders from September 2020.
